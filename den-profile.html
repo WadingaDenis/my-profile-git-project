@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fofung Denis Wadinga — Profile</title>
+  <meta name="description" content="Portfolio of Fofung Denis Wadinga — DevOps Engineer, UAE." />
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--muted:#94a3b8;--accent:#06b6d4;--glass:rgba(255,255,255,0.04)}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Segoe UI,Roboto,system-ui,Arial;background:linear-gradient(180deg,#071226 0%,#071a2a 100%);color:#e6eef6;line-height:1.45}
+    .container{max-width:980px;margin:40px auto;padding:24px}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:120px;height:120px;border-radius:14px;flex:0 0 120px;background:linear-gradient(135deg,#0ea5a4,#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:28px;color:#041826}
+    h1{margin:0;font-size:26px}
+    .sub{color:var(--muted);margin-top:6px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:24px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .section{margin-bottom:18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+    .skill{background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--muted);font-size:13px}
+    .projects{display:flex;flex-direction:column;gap:12px}
+    .proj{display:flex;gap:12px;align-items:flex-start}
+    .proj .thumb{width:88px;height:64px;border-radius:8px;background:#062a33;flex:0 0 88px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+    .proj h3{margin:0;font-size:15px}
+    .proj p{margin:6px 0 0;color:var(--muted);font-size:13px}
+    .contact a{color:var(--accent);text-decoration:none}
+    footer{margin-top:26px;text-align:center;color:var(--muted);font-size:13px}
+    .download{display:inline-block;margin-top:10px;background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021019;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+    @media (max-width:900px){.grid{grid-template-columns:1fr}.avatar{width:96px;height:96px;font-size:22px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="avatar">FD</div>
+      <div>
+        <h1>Fofung Denis Wadinga</h1>
+        <div class="sub">DevOps Engineer — UAE • Infrastructure, CI/CD, Cloud Automation</div>
+        <div style="margin-top:10px;color:var(--muted);font-size:13px">Location: Abu Dhabi, UAE • Available for freelance & remote roles</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card section">
+          <h2 style="margin-top:0">About</h2>
+          <p style="color:var(--muted)">I am a DevOps engineer with experience designing and operating resilient cloud-native infrastructure, automating CI/CD pipelines, and improving reliability through Infrastructure-as-Code and monitoring. I focus on pragmatic solutions that balance speed, security, and cost.</p>
+          <a class="download" href="#" download>Download Resume (PDF)</a>
+        </section>
+
+        <section class="card section">
+          <h2 style="margin-top:0">Projects</h2>
+          <div class="projects">
+            <article class="proj">
+              <div class="thumb">Argo</div>
+              <div>
+                <h3>GitOps Platform with ArgoCD &amp; Kubernetes</h3>
+                <p>Built a GitOps-driven delivery platform using ArgoCD, Argo Rollouts and Helm; automated multi-cluster app promotion with canary and blue/green strategies, managed secrets with SealedSecrets, and integrated Prometheus/Grafana for observability and alerting. Reduced deployment lead time and enabled safe automated rollbacks.</p>
+                <p style="margin-top:8px"><a href="https://github.com/your-username/argo-gitops" target="_blank" style="color:var(--accent)">Repo</a></p>
+              </div>
+            </article>
+
+            <article class="proj">
+              <div class="thumb">K8s</div>
+              <div>
+                <h3>Multi-cluster Kubernetes Platform</h3>
+                <p>Designed and deployed a multi-cluster Kubernetes platform with GitOps, automated cluster lifecycle, and secure ingress across environments.</p>
+              </div>
+            </article>
+
+            <article class="proj">
+              <div class="thumb">CI</div>
+              <div>
+                <h3>Enterprise CI/CD Pipelines</h3>
+                <p>Implemented reusable CI templates using GitHub Actions and Terraform for consistent builds, tests, and automated deployments.</p>
+              </div>
+            </article>
+
+            <article class="proj">
+              <div class="thumb">Infra</div>
+              <div>
+                <h3>Cost-Optimized Cloud Migration</h3>
+                <p>Migrated services to AWS with IaC, autoscaling, and policy-driven security, reducing monthly costs and improving availability.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="card section">
+          <h2 style="margin-top:0">Contact</h2>
+          <p class="contact" style="color:var(--muted)">Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+          <p style="color:var(--muted)">GitHub: <a href="https://github.com/" target="_blank">github.com/your-username</a></p>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card section">
+          <h3 style="margin-top:0">Skills</h3>
+          <div class="skills">
+            <span class="skill">Kubernetes</span>
+            <span class="skill">Terraform</span>
+            <span class="skill">Docker</span>
+            <span class="skill">Azure</span>
+            <span class="skill">AWS</span>
+            <span class="skill">GitHub Actions</span>
+            <span class="skill">Prometheus</span>
+            <span class="skill">Helm</span>
+            <span class="skill">Python</span>
+          </div>
+        </div>
+
+        <div class="card section">
+          <h3 style="margin-top:0">Quick Info</h3>
+          <p style="color:var(--muted);margin:0">Location: UAE</p>
+          <p style="color:var(--muted);margin:8px 0 0">Experience: 5+ years</p>
+          <p style="color:var(--muted);margin:8px 0 0">Languages: English, French</p>
+        </div>
+
+        <div class="card section">
+          <h3 style="margin-top:0">Availability</h3>
+          <p style="color:var(--muted)">Open to consulting and full-time opportunities. Reach out via email.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Built with ❤️ — Fofung Denis Wadinga • <a href="mailto:youremail@example.com" style="color:var(--muted);text-decoration:none">Contact</a>
+    </footer>
+  </div>
+</body>
+</html>
