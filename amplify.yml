@@ -9,7 +9,12 @@ frontend:
     baseDirectory: ./
     files:
       - index.html
-      - den-profile.html
+      - about.html
+      - skills.html
+      - projects.html
+      - experience.html
+      - contact.html
+      - style.css
       - README.md
   cache:
     paths: []
